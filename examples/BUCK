@@ -1,0 +1,12 @@
+cxx_binary(
+  name = 'naval-fate',
+  srcs = [
+    'naval_fate.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:docopt.cpp',
+  ],
+)
